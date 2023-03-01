@@ -1,0 +1,28 @@
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  text-align: end;
+  padding-right: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Footer_h6, .Link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Footer_h6 a:hover {
+  color: #fbb117;
+}
+
+@media (max-width: 400px) {
+  .Footer_h6, .Link {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+  }
+}
