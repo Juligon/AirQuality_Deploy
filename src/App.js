@@ -51,7 +51,7 @@ function App() {
 	const getCityData = () => {
 		try {
 			fetch(
-				`${process.env.REACT_APP_API_URL}nearest_city?key=${process.env.REACT_APP_API_KEY}`
+				`${process.env.REACT_APP_API_URL}/v2/nearest_city?key=${process.env.REACT_APP_API_KEY}`
 			)
 				.then((response) => response.json())
 				.then(function ({ data }) {
