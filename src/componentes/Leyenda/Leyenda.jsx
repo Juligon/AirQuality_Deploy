@@ -30,7 +30,7 @@ const Leyenda = () => {
       </div>
 
       <div className={classes.Leyenda3}>
-        <h3 className={classes.Title}>Insalubre para grupos sensibles</h3>
+        <h3 className={`${classes.Title} ${classes.Centrador}`}>Insalubre para grupos sensibles</h3>
         <h3 className={classes.Valor}>101-150</h3>
       </div>
 
