@@ -43,9 +43,10 @@ const Base = (baseState) => {
 						<h2 className={classes.TextoTituloCiudad}>
 							{baseState.titulociudad}
 						</h2>
+						{/* <p className={classes.TextoEstacion}>Estación más cercana disponible a las:</p> */}
 					</div>
 					<div className={classes.TimeStamp}>
-						<h3 className={classes.TextoTimeStamp}>{baseState.timestamp}</h3>
+						<h3 className={classes.TextoTimeStamp}>Estación más cercana disponible a las: {baseState.timestamp}</h3>
 					</div>
 				</div>
 				<div className={`${classes.GrupoPrincipal} ${Colores}`}>

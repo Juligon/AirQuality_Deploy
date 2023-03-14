@@ -56,6 +56,7 @@ function App() {
 				.then((response) => response.json())
 				.then(function ({ data }) {
 					setBaseState({
+						// city: successFunction(),
 						city: data.city,
 						timestamp: getTimeStamp(),
 						aqi: data.current.pollution.aqius,
